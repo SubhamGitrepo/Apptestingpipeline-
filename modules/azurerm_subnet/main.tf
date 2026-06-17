@@ -1,0 +1,10 @@
+resource "azurerm_subnet" "subnets_infra" {
+
+for_each = var.subnets
+  name                 = each.value.subnets_name
+  resource_group_name  = each.value.rg_name
+  virtual_network_name = each.value.vnet_name
+  address_prefixes     = ["10.0.1.0/24"]
+
+ 
+}
