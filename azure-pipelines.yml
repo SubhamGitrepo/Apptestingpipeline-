@@ -61,8 +61,8 @@ stages:
         steps:
         - task: ManualValidation@1
           inputs:
-            notifyUsers: 'subhamsinghrajput1994@gmail.com'
-            approvers: 'subhamsinghrajput1994@gmail.com'
+            notifyUsers: 'ProsenjitMandal@pawangiri3gmail.onmicrosoft.com'
+            approvers: 'ProsenjitMandal@pawangiri3gmail.onmicrosoft.com'
         
 
   - stage: 
