@@ -57,6 +57,7 @@ stages:
     displayName: Manual validation stage
     jobs:
       - job: 
+        pool: server
         steps:
         - task: ManualValidation@1
           inputs:
